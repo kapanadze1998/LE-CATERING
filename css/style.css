@@ -83,6 +83,12 @@ button {
         background-color: #fff;
         border-radius: 20px;
         border: 2px solid #e7e7e7;
+        color: #fff;
+    font-size: 40px;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
         
 
 
@@ -90,6 +96,9 @@ button {
 
 button:hover{
     background-color: #e0e0e0;
+    color: aqua;
+
+    
 }
 
 
@@ -103,6 +112,7 @@ button:hover{
      float: left;
    
     padding: 0 10px 0 0;
+    
 }
 
 .text{
@@ -112,5 +122,16 @@ button:hover{
 .paragrapi1{
 font-size: 18px!important;
 
+}
+
+.paragrapi2{
+    overflow: hidden;
+    background-color:rgb(202, 199, 196);
+    border-radius: 20px;
+    
+   
+    
+  
+      
 }
 
